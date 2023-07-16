@@ -1,0 +1,113 @@
+.wrapper__recently{
+    margin: 80px auto;
+    width: 100%;
+    max-width: 1320px;
+    height: auto;
+}
+
+.wrapper__recently__row{
+    margin-top: 40px;
+    display: flex;
+}
+
+.wrapper__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 44px; /* 115.789% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.subTitle{
+    color: #D4D4D4;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 22px; /* 110% */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.recently__card{
+    width: 330px;
+    max-width: 330px;
+    height: 520px;
+}
+
+.card__miniNav{
+    display: flex;
+}
+
+.card__img{
+    padding: 0px 12px 5px 12px;
+    cursor: pointer;
+}
+
+.tags{
+    display: flex;
+    margin-left: 15px;
+}
+
+.tags p {
+    margin-left: 18px;
+    margin-top: 3px;
+
+    color: #B4B4B4;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+}
+
+.addToFavorite{
+    margin-left: 97px;
+    margin-top: 24px;
+}
+
+.title__anime{
+    margin: 18px 15px;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 36px; /* 163.636% */
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 501px){
+    .wrapper__recently__row{
+        display: block;
+        margin-left: 80px;
+    }
+
+    .recently__card{
+        margin-bottom: 20px;
+    }
+
+    .addToFavorite {
+        margin-left: 97px;
+        margin-top: 5px;
+    }
+}
