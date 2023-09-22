@@ -1,0 +1,43 @@
+.comment_section{
+    display: block;
+}
+
+.title{
+    color: white;
+}
+
+.comment_text_area{
+    width: 320px;
+    height: 70px;
+    resize: none; /* Запрет изменения размера */
+    background: none;
+}
+
+.comment_text_area::placeholder{
+    color: white;
+    padding: 10px 10px;
+}
+
+.comment_text_show{
+    color: white;
+}
+
+.comment_input_area{
+    margin-top: 15px;
+}
+
+.comment_button{
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 7px 13px 7px 12px;
+    border-radius: 8px;
+    border: 2px solid #F5CF49;
+    background: #242424;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.comment_button:hover{
+    border: 2px solid #A958A5;
+}

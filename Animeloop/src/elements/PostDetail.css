@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.post_detail{
+    width: 100%;
+    max-width: 1320px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.post_detail_video{
+    width: 990px;
+    height: 600px;
+    background: grey;
+}
+
+.post_section_about{
+    display: flex;
+}
+
+.post_section_image{
+    height: 100vh;
+}
+.post_image{
+    width: 332px;
+}
+
+.post_section_summary{
+    margin-left: 12px;
+}
+
+.post_summary_title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.5px; /* 110% */
+    letter-spacing: 1.5px;
+}
+
+.post_summary_subtitle{
+    margin-top: 57px;
+    color: #D4D4D4;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px; /* 156.25% */
+    letter-spacing: 0.5px;
+}
+
+.post_summary_description{
+    margin-top: 11px;
+    color: #D4D4D4;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    letter-spacing: 0.5px;
+}

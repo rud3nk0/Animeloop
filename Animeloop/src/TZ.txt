@@ -1,0 +1,20 @@
+1) Розбиваємо весь макет на 3 частини
+    1.1) Header
+        1) Logo
+        2) Navigation
+        3) Auth
+    1.2) Banner
+        1) Slider Banner
+        2) Gallery recently update ( make 4 columns )
+        3) Banner Popular Anime
+        4) Gallery Popular Anime
+        5) weekly schedule
+        6)
+            ^
+            1) Top Rated Anime
+            2) New
+            3) Recently Completed
+    1.3) Footer
+        1) logo
+        2) social
+        3) notification

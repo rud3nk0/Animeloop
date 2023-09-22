@@ -1,0 +1,12 @@
+.table_all_manga{
+    width: 1920px;
+}
+
+.recently__card{
+    margin-top: 20px;
+}
+
+.row_manga{
+    display: flex;
+    flex-wrap: wrap;
+}

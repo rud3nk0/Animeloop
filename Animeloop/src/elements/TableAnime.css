@@ -1,0 +1,59 @@
+.table_app{
+    margin: 0 300px;
+}
+
+.table{
+    display: flex;
+}
+
+.tableBlock:nth-child(2),
+.tableBlock:last-child{
+    margin-left: 24px;
+}
+
+.table_name{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 113.793% */
+    letter-spacing: 1.5px;
+}
+
+.table_Block{
+    display: flex;
+    margin-top: 10px;
+    width: 416px;
+    height: 93px;
+    background: #111111;
+    border-radius: 10px;
+}
+
+.table_info{
+    margin: 15px 14px;
+}
+
+.table_miniBlock_img{
+    width: 69px;
+    height: 93px;
+}
+
+.name{
+    margin-left: 10px;
+
+    color: #FFF;
+
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px; /* 160.714% */
+    letter-spacing: 0.5px;
+}
+
+.voiceActings{
+    display: flex;
+    width: 40px;
+    height: 50px;
+}

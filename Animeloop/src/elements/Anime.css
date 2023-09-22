@@ -1,0 +1,5 @@
+.table_post{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
